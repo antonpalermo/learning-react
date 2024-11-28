@@ -1,3 +1,3 @@
-# @packages/globals-database
+# React Sandbox
 
-host all database code
+Collection of my react code samples
