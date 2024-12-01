@@ -6,6 +6,8 @@ import BasicState from './basic-state'
 import NestedObjectState from './nested-object-state'
 import ArrayState from './array-state'
 import WithImmer from './with-immer'
+import ResetState from './reset-state'
+import StoreState from './store-state'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <NestedObjectState />
       <ArrayState />
       <WithImmer />
+      <ResetState />
+      <StoreState />
     </div>
   )
 }
