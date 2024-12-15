@@ -1,17 +1,11 @@
-import React from 'react'
+import EventEffect from './event-effect'
+import ExternalEffect from './external-effect'
 
 export default function App() {
-  const [coordinates, setCoordinates] = React.useState()
-
-  React.useEffect(() => {
-    window.addEventListener('mousemove', ev => console.log(ev))
-    return () =>
-      window.removeEventListener('mousemove', () => console.log('removed'))
-  }, [])
-
   return (
     <div>
-      <p>{JSON.stringify(coordinates)}</p>
+      <EventEffect />
+      <ExternalEffect />
     </div>
   )
 }
