@@ -3,11 +3,14 @@
   "description": "",
   "private": true,
   "scripts": {
+    "dev": "turbo dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "turbo": "^2.3.3"
   },
   "author": "Anton Palermo <hello@antonpalermo.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@9.14.2"
 }
